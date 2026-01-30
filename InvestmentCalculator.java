@@ -8,7 +8,7 @@ public class InvestmentCalculator {
         while (true) {
             System.out.print("Enter investment amount (or 'end' to quit): ");
             String amountInput = input.next();
-            //addd loop
+            //add loop
             if (amountInput.equalsIgnoreCase("end")) {
                 break;
             }
@@ -17,7 +17,7 @@ public class InvestmentCalculator {
             //interest
             System.out.print("Enter annual interest rate: ");
             double rate = input.nextDouble();
-            // time(calculated in years
+            // time(calculated in years)
             System.out.print("Enter the number of years: ");
             int years = input.nextInt();
             
